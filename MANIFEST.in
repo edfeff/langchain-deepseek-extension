@@ -1,0 +1,2 @@
+include src/extension/tokenizer_config.json
+include src/extension/tokenizer.json

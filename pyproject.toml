@@ -1,0 +1,19 @@
+[project]
+name = "langchain-deepseek-extension"
+version = "0.0.6"
+authors = [{ name = "edfeff", email = "edfeff@163.com" }]
+description = "This project supports the calculation of token counts."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file = "LISENSE" }
+dependencies = [
+  "langchain_deepseek"
+]
+
+[project.urls]
+Homepage = "https://github.com/edfeff/langchain-deepseek-extension"
+Issues = "https://github.com/edfeff/langchain-deepseek-extension/issues"
