@@ -1,6 +1,6 @@
 [project]
 name = "langchain-deepseek-extension"
-version = "0.0.6"
+version = "0.0.7"
 authors = [{ name = "edfeff", email = "edfeff@163.com" }]
 description = "This project supports the calculation of token counts."
 readme = "README.md"
