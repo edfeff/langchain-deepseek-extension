@@ -12,4 +12,11 @@ from langchain_deepseek_extension.extension import ChatDeepSeekPlus
 
 model = ChatDeepSeekPlus(model="deepseek-chat")
 
+messages = [
+    SystemMessage(content="you're a good assistant"),
+    HumanMessage(content="hi! I'm bob"),
+    AIMessage(content="hi!")
+]
+num = model.get_num_tokens_from_messages(messages)
+
 ```
